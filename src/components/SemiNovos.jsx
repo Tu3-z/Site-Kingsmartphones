@@ -8,6 +8,7 @@ function SemiNovos() {
   return (
     <div>
       <div className="cpo-container">
+        <img src={iphone} alt="" className="seminovo-img" />
         <div className="cpo-container__text">
           <h1 className="cpo-container__text--tittle">
             Semi-Novos <span className="highlight"> Premium</span>
@@ -17,11 +18,11 @@ function SemiNovos() {
             Passam por um rigoroso controle de qualidade, com mais de{" "}
             <span className="highlight"> 70 testes realizados.</span>
           </p>
-          <div className="lacrado-container__text--subtittle">
+          <div className="seminovo-container__text--subtittle">
             <p>
               <img src={star} alt="" className="lacrado-icon" />
               Aparelhos com <span className="highlight">ótimo visual</span> e
-              100% funcionais.
+             100% funcionais.
             </p>
             <p>
               <img src={apple} alt="" className="lacrado-icon" />
@@ -37,7 +38,6 @@ function SemiNovos() {
             </p>
           </div>
         </div>
-        <img src={iphone} alt="" className="seminovo-img" />
       </div>
     </div>
   );

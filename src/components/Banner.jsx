@@ -1,12 +1,13 @@
-import React from "react";
-import banner from "../assets/iphoneBanner.png";
+import bannerP from "../assets/bannerMobile.png"
+import bannerG from "../assets/iphoneBanner.png"
 
 function Banner() {
   return (
-    <div className="banner">
-      <img src={banner} alt="" id="banner" />
-    </div>
+    <picture>
+      <source media="(min-width: 768px)" srcSet={bannerG} />
+      <img src={bannerP} alt="Imagem responsiva" className="bannerMobile"/>
+    </picture>
   );
-}
+};
 
 export default Banner;

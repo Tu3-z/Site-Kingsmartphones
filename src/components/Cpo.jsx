@@ -7,6 +7,7 @@ import shield from "../assets/shield.png";
 function Cpo() {
   return (
     <div className="cpo-container">
+      <img src={cpo} alt="" className="cpo-img" />
       <div className="cpo-container__text">
         <h1 className="cpo-container__text--tittle">
           {" "}
@@ -32,7 +33,6 @@ function Cpo() {
           </p>
         </div>
       </div>
-      <img src={cpo} alt="" className="cpo-img" />
     </div>
   );
 }
