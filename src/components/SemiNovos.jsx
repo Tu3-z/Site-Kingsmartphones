@@ -18,23 +18,19 @@ function SemiNovos() {
             Passam por um rigoroso controle de qualidade, com mais de{" "}
             <span className="highlight"> 70 testes realizados.</span>
           </p>
-          <div className="seminovo-container__text--subtittle">
+          <div className="lacrado-container__text--subtittle">
             <p>
               <img src={star} alt="" className="lacrado-icon" />
-              Aparelhos com <span className="highlight">ótimo visual</span> e
-             100% funcionais.
+              Aparelhos com{" "}
+              <span className="highlight">ótimo preservamento.</span>
             </p>
             <p>
               <img src={apple} alt="" className="lacrado-icon" />
-              Mais de <span className="highlight">
-                70 testes realizados
-              </span>{" "}
-              antes da venda.
+              Mais de <span className="highlight">70 testes realizados.</span>
             </p>
             <p>
               <img src={shield} alt="" className="lacrado-icon" />
-              <span className="highlight">3 meses</span> de garantia direto com
-              a gente.
+              <span className="highlight">3 meses</span> de garantia KING.
             </p>
           </div>
         </div>
