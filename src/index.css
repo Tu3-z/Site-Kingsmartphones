@@ -15,7 +15,7 @@ body {
 
 .navbar {
   background-color: #ffffff;
-  color: #333;
+  color: #111111;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -26,23 +26,31 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+.buy-button {
+  background-color: #ff7200;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 900;
+  margin-left: 20vw;
+  font-size: 1vw;
+}
+
 .navbar__logo img {
-  width: 9vh;
-  font-weight: bold;
+  width: 15vh;
 }
 
 .navbar__menu {
   display: flex;
-  margin-right: 30vw;
-  align-content: center;
-  text-align: center;
+  margin-right: 5vw;
   gap: 2rem;
 }
 
 .navbar__menu button {
   text-decoration: none;
-  color: #333;
-  font-weight: 800;
+  color: #161616;
+  font-weight: 1000;
   transition: color 0.2s ease;
   border: none;
   background: none;
@@ -62,14 +70,14 @@ body {
 }
 
 .bar {
-  width: 25px;
+  width: 250px;
   height: 3px;
   background-color: #333;
   transition: all 0.3s ease;
 }
 
-.banner img {
-  width: 100%;
+.banner-container {
+  background-color: #111111;
 }
 
 .highlight {
@@ -219,7 +227,7 @@ body {
 }
 
 .cpo-img {
-  width: 23vw;
+  width: 27vw;
 }
 
 .openbox-img img {
@@ -381,8 +389,8 @@ body {
   background-clip: text;
   color: transparent;
   font-weight: bold;
-  font-size: 1.6vh;
-  margin-top: 0.2vh;
+  font-size: 1.8vh;
+  margin-top: 1.5vh;
 }
 
 .rodape-container {
@@ -404,18 +412,65 @@ body {
 }
 
 .banner-container {
+  width: 100%;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #111111;
+}
+.banner-container img {
+  display: block;
   width: 100%;
-  overflow: hidden; /* impede barra de rolagem */
+  height: auto;
+  margin: auto;
 }
 
-.banner-container img,
-.banner-container source {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.swiper-pagination-bullet {
+  background: white;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.pagamentos-container {
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  padding-bottom: 200px;
+}
+
+.pagamentos-container h1 {
+  color: #ff7200;
+  margin-top: 10vh;
+  font-size: 3.2vw;
+  text-align: center;
+}
+
+.metodos-pagamento {
+  width: 55vw;
+}
+
+.reuso-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.icon-reuso {
+  width: 8vw;
+}
+
+.reuso-container p {
+  color: white;
+  font-size: 2vw;
 }
 
 /* Mobile styles */

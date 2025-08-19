@@ -15,7 +15,7 @@ function Cpo() {
         </h1>
         <p className="cpo-container__text--subtittle">
           Modelos que não passaram em algum teste de fábrica são cuidadosamente
-          <span className="highlight">ajustados pela própria Apple </span> e
+          <span className="highlight"> ajustados pela própria Apple </span> e
           vendidos como novos.
         </p>
         <div className="lacrado-container__text--subtittle">

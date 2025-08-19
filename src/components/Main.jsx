@@ -11,6 +11,7 @@ import AvaliacoesList from "./AvaliacoesList";
 import WhatsAppButton from "./WhatsAppButton";
 import Mapa from "./Mapa";
 import Rodape from "./Rodape";
+import Pagamentos from "./Pagamentos";
 
 function Main() {
   const [refBenefit, visibleBenefit] = useFadeInOnScroll();
@@ -88,6 +89,7 @@ function Main() {
       </div>
       <AvaliacoesList />
       <WhatsAppButton />
+      <Pagamentos />
       <Mapa />
       <Rodape />
     </>

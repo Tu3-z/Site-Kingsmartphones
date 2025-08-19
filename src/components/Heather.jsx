@@ -65,6 +65,12 @@ const Heather = () => {
         >
           Clientes
         </button>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511991594636&text&type=phone_number&app_absent=0"
+          className="buy-button"
+        >
+          Compre Agora
+        </a>
       </nav>
 
       <div className="navbar__toggle" onClick={toggleMenu}>
