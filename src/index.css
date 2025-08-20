@@ -66,11 +66,11 @@ body {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  gap: 5px;
+  gap: 8px;
 }
 
 .bar {
-  width: 250px;
+  width: 50px;
   height: 3px;
   background-color: #333;
   transition: all 0.3s ease;
@@ -496,6 +496,10 @@ body {
     padding: 1.5rem 0;
   }
 
+  .buy-button {
+    margin: auto;
+  }
+
   .navbar__menu a,
   .navbar__menu button {
     font-size: 3vw;
@@ -504,11 +508,6 @@ body {
     text-align: center;
     border-radius: 8px;
     transition: background 0.2s ease;
-  }
-
-  .navbar__menu a:hover,
-  .navbar__menu button:hover {
-    background: #f0f0f0;
   }
 
   .navbar__toggle {
@@ -751,6 +750,62 @@ body {
   .bannerMobile {
     width: 100%;
     height: auto;
+  }
+
+  .pagamentos-container {
+    padding-bottom: 120px;
+  }
+
+  .pagamentos-container h1 {
+    color: #ff7200;
+    margin-top: 5vh;
+    font-size: 9vw;
+    text-align: center;
+  }
+
+  .metodos-pagamento {
+    width: 99vw;
+  }
+
+  .reuso-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .icon-reuso {
+    width: 20vw;
+  }
+
+  .reuso-container p {
+    color: white;
+    font-size: 5vw;
+  }
+
+  .banner-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111111;
+  }
+  .banner-container img {
+    display: block;
+    width: 420px;
+    height: auto;
+    margin: auto;
+  }
+
+  .swiper-pagination-bullet {
+    background: white;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
   }
 }
 
@@ -1035,5 +1090,36 @@ body {
   .bannerMobile {
     width: 100%;
     height: auto;
+  }
+
+  .pagamentos-container {
+    padding-bottom: 200px;
+  }
+
+  .pagamentos-container h1 {
+    color: #ff7200;
+    margin-top: 5vh;
+    font-size: 9vw;
+    text-align: center;
+  }
+
+  .metodos-pagamento {
+    width: 99vw;
+  }
+
+  .reuso-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .icon-reuso {
+    width: 20vw;
+  }
+
+  .reuso-container p {
+    color: white;
+    font-size: 5vw;
   }
 }
