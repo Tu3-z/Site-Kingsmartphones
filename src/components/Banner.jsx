@@ -34,7 +34,7 @@ function BannerCarousel() {
   ];
 
   return (
-    <div className="banner-container">
+    <div className="banner-container" id="banner">
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 3500, disableOnInteraction: false }}

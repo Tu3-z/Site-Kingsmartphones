@@ -12,6 +12,7 @@ import WhatsAppButton from "./WhatsAppButton";
 import Mapa from "./Mapa";
 import Rodape from "./Rodape";
 import Pagamentos from "./Pagamentos";
+import Reuso from "./Reuso";
 
 function Main() {
   const [refBenefit, visibleBenefit] = useFadeInOnScroll();
@@ -24,6 +25,7 @@ function Main() {
     <>
       <Heather />
       <Banner />
+      <Reuso />
 
       <div className="benefits-tittle" id="benefits">
         <h1>
