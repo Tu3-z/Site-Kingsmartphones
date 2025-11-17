@@ -1,4 +1,4 @@
-# <img alt="Apple" src="https://img.shields.io/badge/Apple-—-000?style=for-the-badge&logo=apple&logoColor=white" width="24"/> KingSmartphones — Site de Apresentação
+<img alt="Apple" src="https://img.shields.io/badge/Apple-—-000?style=for-the-badge&logo=apple&logoColor=white" width="24"/> KingSmartphones — Site de Apresentação
 
 Site desenvolvido em React para a KingSmartphones — loja especializada em iPhones. Visual premium inspirado no ecossistema Apple; fui responsável pelo desenvolvimento e design.
 
