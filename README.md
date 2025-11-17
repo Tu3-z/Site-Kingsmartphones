@@ -17,4 +17,5 @@ Visual minimalista e experiência fluida
 
 # ▶️ Como rodar
 npm install
+
 npm start
